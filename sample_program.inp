@@ -1,0 +1,14 @@
+progenitor ana brooke.
+progenitor xerces brooke.
+progenitor brooke damocles.
+progenitor X Y => ancestre X Y.
+progenitor X Z & ancestre Z Y => ancestre X Y.
+end.
+progenitor xerces brooke => query.
+progenitor brooke xerces => query.
+ancestre brooke damocles => query.
+ancestre xerces damocles => query.
+ancestre Ancestre damocles => query Ancestre.
+ancestre xerces X & ancestre X damocles => query X.
+ancestre X Y & ancestre Y damocles => query X Y.
+end.
